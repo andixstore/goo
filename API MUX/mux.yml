@@ -1,0 +1,13 @@
+openapi: '3.0.2'
+info:
+  title: MUX
+  version: '1.0'
+servers:
+  - url: http://localhost:8080/
+  description: Production server
+# paths: 
+#   /mux:
+#     get:
+#       responses:
+#         '200':
+#           description: OK
