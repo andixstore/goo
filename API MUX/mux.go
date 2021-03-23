@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// func home
 func home(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	switch r.Method {
